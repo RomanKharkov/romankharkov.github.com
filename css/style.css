@@ -14,9 +14,8 @@ body, html {
 
 /* __0.1. Стили разметки */
 .center-wrapper {
-	max-width: 960px;
+	max-width: 880px;
 	margin: 0 auto;
-	padding: 0 10px;
 }
 
 .container {
