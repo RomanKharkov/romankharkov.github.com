@@ -32,12 +32,18 @@ body, html {
 	}
 
 	.left-column {
-		width: 310px;
+		font-size: 20px;
+		width: 350px;
 		text-align: left;
+		float: left;
 	}
 
 	.right-column {
+		float: right;
 		max-width: 500px;
+	}
+	.right-column img:hover {
+		box-shadow: 0px 0px 10px 5px rgba(200,200,200, 0.7);
 	}
 
 .clearfix:after {
@@ -56,7 +62,7 @@ h2 {
 }
 
 h3 {
-	font-size: 19px;
+	font-size: 25px;
 	font-weight: bold;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -84,6 +90,7 @@ p {
 }
 
 strong {
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -140,7 +147,7 @@ header:hover {
 
 .top-menu a {
 	float: left;
-	padding: 10px 20px;
+	padding: 15px;
 	color: #fff;
 	font-weight: bold;
 	letter-spacing: 0.08ex;
@@ -178,6 +185,7 @@ header:hover {
 	}
 
 	#presentation .right-column {
+		font-size: 23px;
 		padding-right: 30px;
 	}
 
@@ -192,13 +200,13 @@ header:hover {
 		}
 
 		.name {
-			font-size: 21px;
+			font-size: 30px;
 			line-height: 1.7em;
 		}
 
 		.text-intro {
 			text-indent: 1.8em;
-			line-height: 1.3em;
+			line-height: 1.5em;
 			margin-bottom: 0.3em;
 			text-align: justify;
 			word-spacing: -0.2ex;
