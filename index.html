@@ -4,13 +4,13 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="UTF-8">
 	<title>Портфолио Харькова Романа</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="css/arimo.css" rel="stylesheet" type="text/css">
+	<link  href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
-		<div class="center-wrapper clearfix">
+		<div class="container clearfix">
 			<nav class="top-menu">
 				<ul>
 					<li>
@@ -31,20 +31,19 @@
 	</header>
 
 		<!-- Самопрезентация -->
-		<section id="presentation" class="clearfix">
+		<section id="presentation" class="my-info">
 			<div class="container clearfix">
 				<div class="left-column">
-					<figure>
+					<div>
 						<img class="portrait" src="img/my-photo.jpg" alt="Роман Харьков">
-						<figcaption>
-						<span class="name">Роман Харьков,</span><br>
-						<strong>HTML-верстальщик</strong></figcaption>
-					</figure>
+						<p class="name">Роман Харьков,</p>
+						<strong>HTML-верстальщик</strong>
+					</div>
 				</div>
 				<div class="right-column">
-					<p class="text-intro">Приветствую вас на своем сайте!</p>
-					<p class="text-intro">Здесь вы можете ознакомиться с примерами выполненных мной <a href="#portfolio" class="js-soft-scroll">работ</a>, <a href="mailto:valentin.html@gmail.com?subject=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D0%B0">заказать</a> верстку макета, а также связаться по интересующим вас вопросам.</p>
-					<p class="text-intro">Свою работу я вижу в том, чтобы оживить ваш дизайн-макет, написав для него аккуратный код. В результате моей работы вы получите набор файлов, готовых к публикации в вебе.</p>
+					<p class="title-text">Приветствую вас на своем сайте-портфолио!</p>
+					<p>Здесь вы можете ознакомиться с примерами выполненных мной <a href="#portfolio" class="js-soft-scroll">работ</a>, <a href="">заказать</a> верстку макета, а также связаться по интересующим вас вопросам.</p>
+					<p>Свою работу я вижу в том, чтобы оживить ваш дизайн-макет, написав для него аккуратный код. В результате моей работы вы получите набор файлов, готовых к публикации в вебе.</p>
 				</div>
 			</div>
 		</section>
@@ -53,10 +52,10 @@
 	<main class="clearfix">
 
 		<!-- Примеры работ -->
-		<section id="portfolio" class="clearfix low-shadow">
-			<h2>Примеры:</h2>
+		<section class="clearfix low-shadow">
 			<div class="container clearfix">
-				<div class="left-column">
+				<h2 class="portfolio-title js-soft-scroll" id="portfolio">Примеры:</h2>
+				<div class="left-block">
 					<h3>Макет сайта барбершопа</h3>
 					<ul class="features">Особенности:
 						<li>Стилизация элементов форм</li>
@@ -74,8 +73,7 @@
 						</li>
 					</ul>
 				</div>
-
-				<div class="right-column">
+				<div class="right-block">
 					<div class="portfolio-sample">
 						<a href="barbershop/index.html" title="Смотреть подробнее" target="_blank">
 							<img src="img/barbershop-frame.jpg" alt="Пример верстки макета">
@@ -85,7 +83,7 @@
 			</div>
 
 			<div class="container clearfix">
-				<div class="left-column">
+				<div class="left-block">
 					<h3>Макет сайта веб-студии</h3>
 					<ul class="features">Особенности:
 						<li>Анимированный баннер на CSS</li>
@@ -102,7 +100,7 @@
 					</ul>		
 				</div>
 
-				<div class="right-column">
+				<div class="right-block">
 					<div class="portfolio-sample">
 						<a href="Nerds/index.html" target="_blank" title="Смотреть подробнее">
 							<img src="img/nerds-frame.jpg" alt="Пример верстки макета">
@@ -113,15 +111,14 @@
 		</section>
 
 		<!-- Сертификаты -->
-		<section id="sertificates" class="clearfix">
+		<section id="sertificates" class="container clearfix">
 			<div class="container">
-				<h2>Сертификаты</h2>
-				<h3>«Создание веб-интерфейсов с помощью html и css»</h3>
+				<h2>Сертификаты:</h2>
+				<h3>«Базовый HTML и CSS»</h3>
 				<figure>
-					<a href="https://htmlacademy.ru/intensive-participant/16/certificate?get=1" title="Посмотреть сертификат (pdf)" target="_blank"><img src="img/serteficate.jpg" alt="Сертификат"></a>
+					<a href="https://psv4.vk.me/c610917/u10676297/docs/5a5f6d1edd6b/HTMLAcademy-ENG.pdf" title="Посмотреть сертификат (pdf)" target="_blank"><img src="img/serteficate.jpg" alt="Сертификат"></a>
 					<figcaption>
-						<p>Сертификат об успешном прохождении <a href="#" target="_blank" title="Ознакомиться с содержанием">курса</a> «HTML-Academy»</p>
-						<p>Продолжительность: 1 месяц.</p>
+						<p>Сертификат об успешном окончании курса <a href="https://htmlacademy.ru/graduates/htmlcss/16" target="_blank" title="Ознакомиться с содержанием">«HTML-Academy»</a></p>
 					</figcaption>
 				</figure>
 			</div>
@@ -130,12 +127,15 @@
 
 	<!-- ФУТЕР -->
 	<footer>
-		<div class="center-wrapper">
-			<span class="contact">
-				<a class="contact-link contact-link-email" href="" title="написать письмо"></a>
+		<div class="container clearfix">
+			<span class="contact" id="contacts">
+				<a class="social-btn icon-vk" href="http://vk.com/lamboss"></a>
 			</span>
 			<span class="contact">
-				<a class="contact-link contact-link-facebook" href="vk.com" target="_blank" title="связаться вконтакте">Вконтакте</a>
+				<a class="social-btn icon-skype" href="skype:jimbimnikotin?chat"></a>
+			</span>
+			<span class="contact">
+				<a class="social-btn icon-call" href="tel:+79160699035"></a>
 			</span>
 		</div>
 	</footer>
