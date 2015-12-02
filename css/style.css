@@ -26,7 +26,7 @@ header:hover {
 	transition: 0.5s;
 }
 section a:hover {
-	color: blue;
+	color: red;
 	text-decoration: none;
 }
 .top-menu ul {
@@ -52,13 +52,17 @@ section a:hover {
 }
 
 .my-info {
+	height: 80vw;
 	margin-bottom: 150px;
+	background: blue url(../img/bg-main.jpg) no-repeat center;
+	background-size: cover;
 }
 .left-column {
 	max-width: 400px;
 	margin-right: 10px;
 	margin-bottom: 20px;
 	padding-top: 100px;
+	color: #fff;
 	text-align: center;
 	letter-spacing: 2px;
 	float: left;
@@ -66,7 +70,6 @@ section a:hover {
 .left-column .portrait {
 	margin-top: 20px;
 	border: 8px solid #fff;
-	box-shadow: 0px 0px 10px 5px rgb(200,200,200);	
 }
 .left-column .name {
 	font-size: 30px;
@@ -78,6 +81,7 @@ section a:hover {
 .right-column {
 	max-width: 460px;
 	font-size: 22px;
+	color: #fff;
 	margin-left: 10px;
 	margin-bottom: 100px;
 	padding-top: 100px;
@@ -85,6 +89,12 @@ section a:hover {
 }
 .right-column .title-text {
 	font-weight: bold;
+}
+.right-column a {
+	color: #fff;
+}
+.right-column a:hover {
+	color: #fff;
 }
 .portfolio-title {
 	font-size: 30px;
@@ -158,15 +168,12 @@ footer {
 	background: url(../img/call.png) no-repeat center;
 }
 .icon-vk:hover {
-	border: 2px solid #fff;
 	background-color: rgb(1, 48, 255);
 }
 .icon-skype:hover {
-	border: 2px solid #fff;
 	background-color: rgb(1, 225, 255);
 }
 
 .icon-call:hover {
-	border: 2px solid #fff;
 	background-color: rgb(0, 255, 0);
 }

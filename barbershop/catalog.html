@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
-	<title>Барбершоп «Бородинский»</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&amp;subset=latin,cyrillic-ext">
+	<title>Магазин</title>
 </head>
 	<body class="bg-main">
 		<header class="main-header">
@@ -13,7 +13,7 @@
 				<nav class="main-navigation">
 					<ul>
 						<li>
-							<a href="#">Главная</a>
+							<a href="index.html">Главная</a>
 						</li>
 						<li>
 							<a href="#">Информация</a>
@@ -22,10 +22,10 @@
 							<a href="#">Новости</a>
 						</li>
 						<li>
-							<a href="#">Прайс-лист</a>
+							<a href="price.html">Прайс-лист</a>
 						</li>
 						<li class="active">
-							<a href="#">Магазин</a>
+							<a href="catalog.html">Магазин</a>
 						</li>
 						<li>
 							<a href="#">Контакты</a>
@@ -38,11 +38,11 @@
 			</div>
 		</header>
 		<div class="container clearfix">
-			<h2 class="catalog-title">Средства для ухода</h2>
+			<h1 class="page-title">Средства для ухода</h1>
 			<div class="breadcrumbs">
 				<a href="#">Главная</a>
 				<a href="#">Магазин</a>
-				<span>Средства для ухода</span>
+				<span class="current">Средства для ухода</span>
 			</div>
 			<div class="left-column">
 				<form action="#" method="get" enctype="multipart/from-data">
@@ -152,9 +152,22 @@
 				</section>
 				<section class="footer-copyright">
 					<p>Дизайн сайта:</p>
-					<a href="#" class="btn">htmlacademy.ru</a>
+					<a href="#" class="btn">Htmlacademy.ru</a>
 				</section>
-			</div>
 		</footer>
+		<div class="modal-content">
+			<div class="modal-content-close">закрыть</div>
+			<h2 class="modal-content-title">Личный кабинет</h2>
+			<p>Введите пожалуйста свой логин и пароль.</p>
+			<form class="login-form" action="/echo" method="post">
+				<input type="text" class="icon-user" name="login" placeholder="Логин" required>
+				<input type="password" class="icon-password" name="password" placeholder="Пароль" required>
+				<input type="checkbox" name="remember" id="remember-me">
+				<label for="remember-me">Запомните меня</label>
+				<a href="#" class="restore">Я забыл пароль!</a>
+				<button type="submit" class="btn">Войти</button>
+			</form>
+		</div>
+		<script type="text/javascript" src="js/javascript.js"></script>
 	</body>
 </html>
