@@ -257,6 +257,9 @@ img {
     padding: 55px 0;
     text-align: center;
 }
+.sertificate img:hover {
+    box-shadow: 0 0 30px 10px #c1c1c1;
+}
 .contacts {
     font-size: 0;
 }
@@ -302,7 +305,6 @@ img {
 
 .bx-wrapper img {
     max-width: 100%;
-    text-align: center;
 }
 
 /** THEME
