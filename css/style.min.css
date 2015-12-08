@@ -302,6 +302,7 @@ img {
 
 .bx-wrapper img {
     max-width: 100%;
+    text-align: center;
 }
 
 /** THEME
