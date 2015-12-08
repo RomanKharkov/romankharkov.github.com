@@ -6,17 +6,16 @@
     <title>Портфолио</title>
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="icon" type="image/png" href="http://mammasonnim.github.io/favicon.png">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
 </head>
 <body>
     <header class="header">
         <div class="container-center clearfix">
             <nav class="menu">
-                <a class="menu-item" href="#promo">Обо мне</a>
-                <a class="menu-item" href="#projects">Проекты</a>
-                <a class="menu-item" href="#sertificate">Сертификаты</a>
-                <a class="menu-item" href="#contacts">Контакты</a>
+                <a class="menu-item js-soft-scroll" href="#promo">Обо мне</a>
+                <a class="menu-item js-soft-scroll" href="#projects">Проекты</a>
+                <a class="menu-item js-soft-scroll" href="#sertificate">Сертификаты</a>
+                <a class="menu-item js-soft-scroll" href="#contacts">Контакты</a>
             </nav>
         </div>
     </header>
@@ -66,36 +65,38 @@
         <div class="page-section projects" id="projects">
             <h1 class="page-title">Выполненные проекты:</h1>
             <div class="container-center">
-            <div class="bxslider">
-                <div class="slide">
-                    <a class="slide-img" href="barbershop/index.html" target="_blank">
-                        <img src="images/project-barbershop.jpg" alt="Barbershop" width="600" height=" 420">
-                    </a>
-                    <h2 class="slide-title">Barbershop</h2>
-                    <p class="slide-text">Учебный проект на курсах HTML Academy</p>
+                <div class="bxslider">
+                    <div class="slide">
+                        <a class="slide-img" href="barbershop/index.html" target="_blank" title="Перейти на сайт">
+                            <img src="images/project-barbershop.jpg" alt="Barbershop" width="600" height="420">
+                        </a>
+                        <h2 class="slide-title">Barbershop</h2>
+                        <p class="slide-text">Учебный проект на курсах HTML Academy</p>
+                    </div>
+                    <div class="slide">
+                        <a class="slide-img" href="nerds/index.html" target="_blank" title="Перейти на сайт">
+                            <img src="images/project-nerds.jpg" alt="Nerd's" width="600" height="420">
+                        </a>
+                        <h2 class="slide-title">NERD'S</h2>
+                        <p class="slide-text">Выпускной проект на курсах HTML Academy</p>
+                    </div>
+                    <div class="slide">
+                        <a class="slide-img" href="#" target="_blank" title="Скоро...">
+                            <img src="images/project-template.jpg" alt="Проект 3" width="600" height="420">
+                        </a>
+                        <h2 class="slide-title">Проект 3</h2>
+                        <p class="slide-text">Скоро</p>
+                    </div>
                 </div>
-                <div class="slide">
-                    <a class="slide-img" href="nerds/index.html" target="_blank">
-                        <img src="images/project-nerds.jpg" alt="Nerd's" width="600" height="420">
-                    </a>
-                    <h2 class="slide-title">NERD'S</h2>
-                    <p class="slide-text">Выпускной проект на курсах HTML Academy</p>
-                </div>
-                <div class="slide">
-                    <a class="slide-img" href="#" target="_blank">
-                        <img src="images/project-.jpg" alt="Проект 3" width="600" height="420">
-                    </a>
-                    <h2 class="slide-title">Проект 3</h2>
-                    <p class="slide-text">Скоро</p>
-                </div>
-            </div>
             </div>
         </div>
         <div class="container-center">
-            <div class="sertificate">
-                <a href="">
-                    <img src="images/sertificate.jpg" alt="sertificate" id="sertificate">
+            <div class="sertificate" id="sertificate">
+                <h1 class="page-title">Сертификаты:</h1>
+                <a href="https://cs7060.vk.me/c610917/u10676297/docs/b2f59cd16eb2/HTMLAcademy-ENG.pdf">
+                    <img src="images/sertificate.jpg" alt="sertificate">
                 </a>
+                <p>Сертификат об успешном окончании курса</p>
             </div>
         </div>
     </div>
