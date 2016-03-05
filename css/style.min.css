@@ -67,7 +67,7 @@ body {
     min-width: 920px;
     font-size: 16px;
     line-height: 1.5;
-    font-family: Verdana, sans-serif;
+    font-family: "Open sans";
     font-weight: 400;
 }
 img {
@@ -96,7 +96,7 @@ img {
     position: fixed;
     z-index: 10;
     width: 100%;
-    background-color: #0045C5;
+    background-color: #0050A7;
 }
 .menu {
     display: -webkit-box;
@@ -120,10 +120,21 @@ img {
     padding: 20px 25px;
     font-size: 21px;
     line-height: 21px;
-    text-transform: lowercase;
+    text-transform: i;
 }
 .menu-item:hover {
-    background-color: #00499E;
+    transition: all 0.7s;
+    color: #F15A2B;
+}
+.menu-item:hover:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    height: 5px;
+    background-color: #F15A2B;
+
 }
 .menu-item_active:after {
     position: absolute;
@@ -277,6 +288,7 @@ img {
     margin-right: 0;
 }
 .contact:hover {
+    transition: all 0.4s;
     background-color: #f15a2b;
 }
 .contact:before {
