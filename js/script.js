@@ -20,3 +20,34 @@ window.onload = function(){
 		return false;
 	});
 }
+$(document).ready(function() {
+    $(".pict_galery").fancybox({
+    openEffect : 'elastic',
+    closeEffect : 'elastic',
+    speedOut : 10000,
+    speedIn : 10000,
+    helpers: {
+     title : {
+      type : 'inside'
+     },
+     overlay : {
+      speedOut : 0
+     }
+    }
+   });
+   $('.fancybox-media')
+    .attr('rel', 'media-gallery')
+    .fancybox({
+     
+     openEffect : 'fade',
+     closeEffect : 'elastic',
+     prevEffect : 'none',
+     nextEffect : 'none',
+
+     arrows : false,
+     helpers : {
+      media : {},
+      buttons : {}
+     }
+    });
+  });
